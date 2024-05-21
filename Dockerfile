@@ -1,5 +1,5 @@
 # base image/os image
-FROM ubuntu
+FROM ubuntu/apache2
 #Update server with update command
 RUN apt-get update -y
 #Install pache2 webserver
